@@ -1,0 +1,23 @@
+{
+    "name": "carousel",
+    "title": "Carousel",
+    "description": "Image and Text split with fields for image, title, text and CTA.",
+    "viewScript": [ "file:./carousel.js" ],
+    "category": "carousels",
+    "icon": "format-image",
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "carousel.php"
+    },
+    "supports": {
+        "align": false,
+        "mode": false,
+        "anchor": true
+    },
+    "attributes": {
+        "previewImage": {
+            "type": "string",
+            "default": "/wp-content/themes/dantaylor-starter-theme/assets/img/blocks/carousel.jpg"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@theme {
+	/**
+	 * These theme variables use CSS variables set by WordPress using values
+	 * from your `theme.json` file.
+	 *
+	 * If you are using the classic editor, you may need to use hardcoded
+	 * color values instead of the `var()` functions below.
+	 */
+
+
+	--color-background: #FBF5F0;
+
+	/* Max width */
+	--max-width-site: 1312px;
+}

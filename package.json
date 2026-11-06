@@ -1,0 +1,24 @@
+{
+  "name": "dantaylor-starter-theme",
+  "version": "1.0.0",
+  "description": "A starter theme for WordPress.",
+  "main": "index.js",
+  "scripts": {
+    "watch:style": "npx tailwindcss -i ./wp-content/themes/dantaylor-starter-theme/assets/css/style.css -o ./wp-content/themes/dantaylor-starter-theme/style.css --watch",
+    "build:style": "npx tailwindcss -i ./wp-content/themes/dantaylor-starter-theme/assets/css/style.css -o ./wp-content/themes/dantaylor-starter-theme/style.css --minify",
+    "wplint": "composer run format && composer run lint",
+    "build": "run-s \"build:*\"",
+    "prepare": "husky"
+  },
+  "author": "Dan Taylor",
+  "license": "ISC",
+  "devDependencies": {
+    "@_tw/typography": "^0.5.17",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@tailwindcss/cli": "^4.0.14",
+    "husky": "^9.0.11",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^4.1.7"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "faqs",
+    "title": "FAQs",
+    "description": "Cards with image, title, text and cta.",
+    "category": "content",
+    "icon": "images-alt",
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "faqs.php"
+    },
+    "supports": {
+        "align": false,
+        "mode": false,
+        "anchor": true
+    },
+    "attributes": {
+        "previewvideo": {
+            "type": "string",
+            "default": "/wp-content/themes/envision2024/assets/src/img/blocks/faqs.jpg"
+        }
+    }
+}
